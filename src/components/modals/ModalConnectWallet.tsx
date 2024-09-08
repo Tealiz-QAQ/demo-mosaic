@@ -4,7 +4,6 @@ import { BodyB2, TitleT1, TitleT2, TitleT5 } from '../Texts'
 
 export default function ModalConnectWallet({
   isOpen,
-  onClose,
   onOpenChange,
 }: {
   isOpen: boolean
