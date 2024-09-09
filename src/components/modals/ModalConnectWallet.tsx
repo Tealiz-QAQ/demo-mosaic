@@ -13,7 +13,7 @@ export default function ModalConnectWallet({
   return (
     <>
       <Modal isOpen={isOpen} onOpenChange={onOpenChange} placement="center" backdrop="blur" hideCloseButton>
-        <ModalContent className="max-w-[420px] bg-buttonDisabled p-4 text-foreground dark">
+        <ModalContent style={{ backgroundColor: '#282a2d' }} className="max-w-[420px] p-4 text-foreground dark">
           {(onClose) => (
             <>
               <div className="flex items-center justify-between">

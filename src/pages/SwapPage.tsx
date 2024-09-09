@@ -694,16 +694,12 @@ export default function SwapPage() {
             ) : (
               <>
                 <Button
-                  className="h-[52px] w-full min-w-fit rounded-lg px-4 py-0 font-normal"
+                  className="h-[52px] w-full min-w-fit rounded-lg px-4 py-0 font-normal bg-[#faca20]"
                   onPress={handleOpenWalletModal}
                 >
                   Connect wallet
                 </Button>
-                <ModalConnectWallet
-                  isOpen={isWalletModalOpen}
-                  onClose={handleCloseWalletModal}
-                  onOpenChange={handleOpenWalletModal}
-                />
+                <ModalConnectWallet isOpen={isWalletModalOpen} onClose={handleCloseWalletModal} onOpenChange={handleCloseWalletModal} />
               </>
             )}
 
