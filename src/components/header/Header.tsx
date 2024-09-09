@@ -71,7 +71,7 @@ export default function Header({ onOpenModal }: { onOpenModal: (modal: MODAL_LIS
               // Nếu chưa kết nối thì hiển thị nút Connect Wallet và modal
               <>
                 <Button
-                  className="h-[32px] w-fit min-w-fit rounded-lg px-2 py-0 font-normal bg-[#faca20]"
+                  className="h-[32px] w-fit min-w-fit rounded-lg px-2 py-0 font-normal"
                   onPress={handleOpenWalletModal}
                 >
                   Connect wallet
@@ -124,7 +124,7 @@ export default function Header({ onOpenModal }: { onOpenModal: (modal: MODAL_LIS
                 // Nếu chưa kết nối thì hiển thị nút Connect Wallet và modal
                 <>
                   <Button
-                    className="h-[32px] w-fit min-w-fit rounded-lg px-2 py-0 font-normal"
+                    className="h-[32px] w-fit min-w-fit rounded-lg px-2 py-0 font-normal bg-[#faca20] text-[#2e3337] font-bold"
                     onPress={handleOpenWalletModal}
                   >
                     Connect wallet

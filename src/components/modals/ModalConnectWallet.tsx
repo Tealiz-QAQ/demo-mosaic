@@ -17,7 +17,7 @@ export default function ModalConnectWallet({
           {(onClose) => (
             <>
               <div className="flex items-center justify-between">
-                <TitleT1>Welcome to Anqa</TitleT1>
+                <TitleT1>Welcome to Mosaic</TitleT1>
                 <Button isIconOnly variant="light" className="h-[20px] w-[20px] min-w-fit p-0" onPress={onClose}>
                   <CloseIcon size={20} />
                 </Button>

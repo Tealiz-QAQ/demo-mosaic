@@ -694,7 +694,7 @@ export default function SwapPage() {
             ) : (
               <>
                 <Button
-                  className="h-[52px] w-full min-w-fit rounded-lg px-4 py-0 font-normal bg-[#faca20]"
+                  className="h-[52px] w-full min-w-fit rounded-lg px-4 py-0 bg-[#faca20] text-[#2e3337] font-bold text-lg"
                   onPress={handleOpenWalletModal}
                 >
                   Connect wallet
